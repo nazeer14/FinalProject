@@ -1,0 +1,130 @@
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+
+
+}
+.box1:hover{
+    background-color: green;
+    /* transform:translateX(400px); */
+    transform: rotate(360deg);
+}
+.box1{
+    height: 250px;
+    width: 400px;
+    border-radius: 100%;
+    border:10px solid rgb(171, 207, 132) ;
+    background-color: rgb(129, 224, 61);
+    font-size: 48px;
+    color: rgb(35, 6, 104);
+    transition:all 2s ease;
+    text-align: center;
+    animation-name: nazeer;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    animation-iteration-count: 5;
+}
+.box2{
+    height: 250px;
+    width: 400px;
+    border-radius: 20%;
+    background-color: rgb(201, 238, 51);
+    font-size: 48px;
+    color: rgb(237, 9, 9);
+    transition:all 3s ease;
+    text-align: center;
+ 
+}
+.box3{
+    height: 250px;
+    width: 400px;
+    border-radius: 20%;
+    background-color: rgb(121, 159, 216);
+    font-size: 48px;
+    color: rgb(54, 240, 21);
+    transition:all 2s ease;
+    text-align: center;
+}
+.box4{
+    height: 250px;
+    width: 400px;
+    border-radius: 20%;
+    background-color: rgb(226, 197, 82);
+    font-size: 48px;
+    color: white;
+    transition:all 2s ease;
+    text-align: center;
+}.box5{
+    height: 250px;
+    width: 400px;
+    border-radius: 20%;
+    background-color: rgb(228, 88, 137);
+    font-size: 48px;
+    color: white;
+    transition:all 2s ease;
+    text-align: center;
+ 
+}
+.box6{
+    height: 250px;
+    width: 400px;
+    background-color: rgb(0, 255, 64);
+    font-size: 45px;
+    border-radius: 20%;
+    color: rgb(232, 103, 5);
+    transition:all 2s ease;
+    text-align: center;
+ 
+}
+.box7{
+    height: 250px;
+    width: 400px;
+    border-radius: 10%;
+    background-color: rgb(5, 33, 195);
+    font-size: 35px;
+    color: white;
+    transition:all 2s ease;
+    text-align: center;
+ 
+}
+.box2:hover{
+    background-color: rgb(138, 252, 138);
+    /* transform:translateX(400px); */
+    transform: rotate(10deg);
+
+}
+.box3:hover{
+    background-color: rgb(230, 88, 195);
+    /* transform:translateX(400px); */
+    transform: rotate(-10deg);
+}
+.box4:hover{
+    background-color: rgb(131, 126, 215);
+    /* transform:translateX(400px); */
+    transform: rotate(10deg);
+}
+.box5:hover{
+    background-image:image-set("lon.jpg");
+    /* background-color: rgb(221, 144, 44); */
+    /* transform:translateX(400px); */
+    transform: rotate(-10deg);
+    background-position: center;
+}
+.box6:hover{
+    background-color: rgb(89, 75, 218);
+    /* transform:translateX(400px);  */
+    transform: rotate(10deg);
+}
+.box7:hover{
+    background-color: rgb(187, 242, 22);
+    /* transform:translateX(400px); */
+    transform: rotate(-10deg);
+    
+}
+@keyframes nazeer{
+    100%{
+       transform: rotate(360deg);
+    }   
+   }

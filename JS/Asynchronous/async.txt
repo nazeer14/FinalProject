@@ -1,0 +1,14 @@
+
+
+https://t.me/+xqWuSwvJ9fRmNWY9
+
+API (Application Programming Interface):
+API will have an end point which consists data, The API is created by backend and used 
+at frontend .It is the bridge that connects frontend with backend .
+
+To access API's ,we used to used
+---XHR(xmlhttprequest) but now browsers by default have a method
+
+--fetch to manage API
+    Every asynchronus function except timers will return promise 
+    A promise is an object which describes an eventual completion of asynchronus operations 

@@ -1,0 +1,25 @@
+Arrays are used to store some items /data using indexes
+
+//reduce
+let arr=[1,2,3]
+let x=arr.reduce((prev,curr)=>prev+corr,0)
+
+//some :some will take a call back which returns true or false and will be true if atleast one value
+  returns true.
+//every : every is similar to some but all should be true
+//reverse : reverse is used to reverse the Arrays
+//sort : sort is used to sort elements alphabeticaly,
+  to sort ascending arr.sort((a,b)=>a-b)  
+  to sort descending arr.sort((a,b)=>b-a)
+  
+
+ Objects : Objects are used to store the data in key value pair.it can store data and methods
+
+ let obj={
+    name:"STAR",
+    are:68,
+    display:function(){
+        console.log("hii")
+    }
+ } 
+ console.log(obj.name['name'],Object.key(obj),Object.value())

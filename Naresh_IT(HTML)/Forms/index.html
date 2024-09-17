@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<style>
+.container{
+    width: 100%;
+    text-align: center;
+
+}
+input[type=text],input[type=email] ,input[type=password] {  
+
+width: 50%;   
+margin: 8px 0px;  
+padding: 10px 20px;  
+display: inline-block;   
+border: rgb(231, 130, 130);   
+box-sizing: border-box;   
+}  
+.submit-button {
+    display: block;
+    width: 10%;
+    padding: 0.75rem;
+    background: var(--color-green);
+    color: inherit;
+    border-radius: 1px;
+    cursor: pointer;
+    text-align: center;
+    
+}
+</style>
+<body bgcolor="lightgreen">
+<div class="container">
+    <!-- EX: Login,Signup,Feedback,contact,search bar,Collect user's information/data-->
+    <form action="main.java" class="Login" id="ligin_form" method="post">
+        <Label>NAME:</Label>
+        <input type="text" placeholder="NAME" ><br><br>
+        <LAbel>EMAIL:</LAbel>
+        <input type="email" placeholder="example@email.com" ><BR><br>  
+        <label>PASSWORD:</label> 
+        <input type="password" placeholder="password"></INPut><br><br>
+        <label>Date of Birth:</label>
+        <input type="date" name="date" id="date"><br><br>
+        <label>Upload photo</label>
+        <input type="file" name="file " id="file"><br><br>
+    </form><br>
+    <center><button type="submit"  class="submit-button" >SUBMIT</button></center>
+</div>
+</body>
+</html>

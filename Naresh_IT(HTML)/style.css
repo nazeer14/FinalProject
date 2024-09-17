@@ -1,0 +1,87 @@
+/* style.css */
+body { 
+    text-align: justify;
+    max-width: 1000px;
+    max-height: 1000px;
+	font-family: Arial, sans-serif; 
+	margin: 4rem; 
+    background-color: rgb(72, 236, 236);
+    color: royalblue;
+} 
+
+.container { 
+	max-width: 1000px; 
+	margin: auto; 
+	padding: 20px; 
+} 
+
+
+.card-container { 
+	display: grid; 
+	grid-template-columns: repeat(5, 1fr); 
+	gap: 0px; 
+} 
+
+.card {  
+	padding: fixed; 
+	border-radius: 3px; 
+	box-shadow: 0 2px 10px 0px rgba(0, 0, 0, 0.1); 
+	background-color: #9ee3dc; 
+	text-align: center; 
+} 
+
+.card img { 
+    position: fixed;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-top: 0%;
+	max-width: 90%; 
+	height: 30%; 
+	margin-bottom: 5%;
+    padding: 5px; 
+	border-radius: 30px; 
+} 
+
+h3 { 
+	margin-top: 1px; 
+	font-size: 15px; 
+	text-transform: capitalize; 
+    color: rgb(249, 99, 44);
+} 
+
+h1 { 
+	text-align: center; 
+	margin: 2rem; 
+    font-size: 250%;
+    font: italic;
+    color: rgb(86, 11, 216);
+} 
+h2{
+    text-align: justify;
+    color: rgb(236, 159, 16);
+}
+
+p { 
+	font-size: 14px;
+    text-align: center; 
+} 
+
+footer{
+    color: black;
+    font-size: x-small;
+}
+
+strong{
+    font-size: larger;
+    color: rgb(238, 26, 26);
+}
+
+b{
+    color: forestgreen;
+}
+
+a{
+    color: crimson;
+    background: #8597f9;
+}
+

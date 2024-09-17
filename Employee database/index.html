@@ -1,0 +1,69 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="UTF-8" /> 
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0" /> 
+	<link rel="stylesheet" href="style.css"> 
+	<title>std Database Management System</title> 
+</head> 
+
+<body> 
+	<div id="app"> 
+		<header class="header"> 
+			<h1>std Database Management</h1> 
+			<button class="createstd"> 
+				Add std 
+			</button> 
+		</header> 
+		<div class="std"> 
+			<div class="std__names"> 
+				<span class="std__names--title"> 
+					std List 
+				</span> 
+				<div class="std__names--list"></div> 
+			</div> 
+			<div class="std__single"> 
+				<div class="std__single--title"> 
+					std Information 
+				</div> 
+				<div class="std__single--info"></div> 
+			</div> 
+		</div> 
+		<!-- Add std Code - START -->
+		<div class="addstd"> 
+			<form class="addstd_create"> 
+				Add a new std 
+				<div> 
+					<input type="text" name="firstName"
+						placeholder="First Name" required /> 
+					<input type="text" name="lastName"
+						placeholder="Last Name" required /> 
+				</div> 
+				<input type="text" name="imageUrl"
+					placeholder="Image URL (Optional)" /> 
+				<input type="email" name="email"
+					placeholder="Email" required /> 
+				<input type="number" name="contactNumber"
+					placeholder="Contact" required /> 
+				<input type="number" name="salary"
+					placeholder="Salary" required /> 
+				<input type="text" name="address"
+					placeholder="Address" required /> 
+				<input type="date" name="dob"
+					placeholder="Date of Birth"
+					class="addstd_create--dob"
+					required /> 
+				<input type="submit"
+					class="addstd_create--submit"
+					value="Submit" /> 
+			</form> 
+		</div> 
+		<!-- Add std Code - END -->
+	</div> 
+
+	<script src="script.js"></script> 
+</body> 
+
+</html>

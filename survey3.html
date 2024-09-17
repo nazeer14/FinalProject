@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 id="title" class="text-center">National Skill Survey</h1>
+            <p id="description" class="description text-center">
+                ND Company Survey
+            </p>
+        </header>
+        <form id="survey-form">
+            <div class="form-group">
+                <label id="name-label" for="name">Name</label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Do you know what your name is?" required="">
+            </div>
+            <div class="form-group">
+                <label id="email-label" for="email">Email</label>
+                <input type="email" name="email" id="email" class="form-control" placeholder="No fake emails please"
+                    required="">
+            </div>
+            <div class="form-group">
+                <label id="number-label" for="number">Age<span class="clue">(optional)</span></label>
+                <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="How young are you?">
+            </div>
+            <div class="form-group">
+                <p>Which option best describes your skill level?</p>
+                <select id="dropdown" name="role" class="form-control" required="">
+                    <option disabled="" selected="" value="">Select skill level</option>
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="expert">Expert</option>
+                    <option value="1337">1337</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <p>Was this helpful?</p>
+                <label><input name="helpful-check" value="yes" type="radio" class="input-radio" checked="">Yes</label>
+                <label><input name="helpful-check" value="no" type="radio" class="input-radio">No</label>
+                <label><input name="helpful-check" value="maybe" type="radio" class="input-radio">Maybe</label>
+                <label><input name="helpful-check" value="not-sure" type="radio" class="input-radio">I don't
+                    know</label>
+                <label><input name="helpful-check" value="repeat" type="radio" class="input-radio">Can you repeat the
+                    question?</label>
+            </div>
+
+            <div class="form-group">
+                <p>What is your favorite skill?</p>
+                <select id="favorite-part" name="favorite" class="form-control" required="">
+                    <option disabled="" selected="" value="">Select an option</option>
+                    <option value="name">C</option>
+                    <option value="email">C++</option>
+                    <option value="age">HTML</option>
+                    <option value="skill">Java</option>
+                    <option value="this">Python</option>
+                    <option value="list">Java Script</option>
+                    <option value="comments">Sql</option>
+                    <option value="all">All skills</option>
+                    <option value="none">Nothing</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <p>
+                    Which parts need improvement?
+                    <span class="clue">(Check all that apply)</span>
+                </p>
+                <label><input name="improve" value="name" type="checkbox" class="input-checkbox">Name</label>
+                <label><input name="improve" value="email" type="checkbox" class="input-checkbox">Email</label>
+                <label><input name="improve" value="age" type="checkbox" class="input-checkbox">Age</label>
+                <label><input name="improve" value="skill" type="checkbox" class="input-checkbox">Skill Level</label>
+                <label><input name="improve" value="favorite" type="checkbox" class="input-checkbox">Favorite language</label>
+                <label><input name="improve" value="this" type="checkbox" class="input-checkbox">This</label>
+                <label><input name="improve" value="comments" type="checkbox" class="input-checkbox">Comments</label>
+                <label>
+            </div>
+
+            <div class="form-group">
+                <p>Comments</p>
+                <textarea id="comments" class="input-textarea" name="comment"
+                    placeholder="..."></textarea>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" id="submit" class="submit-button">
+                    Submit
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <p class="description text-center">ND build company</p>
+    </footer>
+</body>
+
+</html>

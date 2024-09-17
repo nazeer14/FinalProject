@@ -1,0 +1,39 @@
+colspan is used for combine coulums
+<td colspan ="2" >fjkvne</td>
+
+
+rowspan is used for combine rowspan
+
+sementic elements are for seo and readability purposes.it wont create any difference in the UI
+
+populer semantic elementsare header ,main,footrer,section,article,aside,nav etc..,
+
+Classes and ID:
+    Classes and IDs are used to identify the elements but two elements might have same clas  name or
+     one elemnt might have two class name.ids are alwyas unique and only one for an element   
+     <p class="classname" ID="ids">hello</p>
+
+https://github.com/prasad-bigdp/11amhtml
+
+form validation: we can validate forms using 
+readonly:
+disabled:
+required:
+maxlength:
+minlength:
+max/min:
+pattern: users a regular expression to specify certail email/password pattern
+
+
+media: media deals with so many html elements
+picture
+iframe
+kdb
+
+
+//code data attributes
+
+//fontawesome.com
+//fontawesome-cdn.com
+//animista.com
+

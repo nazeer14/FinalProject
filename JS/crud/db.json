@@ -1,0 +1,20 @@
+{
+"movies":[ 
+    {
+        "title":"RRR",
+        "year":2022,
+        "collection":"1100cr"
+
+    },
+    {
+        "title":"Salaar",
+        "year":2023,
+        "collection":"800cr"
+    },
+    {
+        "title":"Kalki",
+        "year":2024,
+        "collection":"1200cr"
+    }
+]
+}

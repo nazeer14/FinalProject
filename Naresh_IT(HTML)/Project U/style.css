@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    --primary-yellow: #f6db35;
+    --secondary-yellow: #9df169;
+    --comic-red:#97ef7f;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    display: flex;
+    font-family: "banger", system-ui; 
+    font-weight: 400;
+    font-style: normal;
+    background:linear-gradient(var(--primary-yellow),var(--comic-red));
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 0px 0px;
+    position: absolute;
+}
+header.head{
+    font-size: 48px;
+    color: rgb(48, 80, 16);
+    font: bold;
+    animation: jumping 1s ease infinite alternate;
+}
+nav ul{
+    display:flex;
+    gap: 20px;
+}
+li{
+    list-style: none;
+}
+a{
+    display: flex;
+    color: brown;
+}
+a:hover{
+    color:var(--primary-yellow);
+}
+p{
+    padding: 0px 0px;
+    display:inline;
+    gap: 10px;
+}
+h2{
+    padding: 50px 50px;
+    display: flex;
+}
+.logo{
+    height: 150px;
+    width: 150px;
+    padding: 0px 800px; 
+    border-radius: 200px;
+    display:flex;
+}
+@media (min-width:571px) and (max-width:768px){
+header{
+    flex-direction: column;
+}
+#banner{
+    flex-direction: row;
+}
+.left{
+    gap: 20px;
+}
+.logo{
+    flex-direction: column-reverse;
+} 
+}
+@keyframes jumping {
+    0%{
+        position: relative;
+        bottom:0px
+    }
+  100%{
+        position: relative;
+        bottom: 20px;
+        color: #f6db35;
+  }    
+}
+
+.left .buttons{
+    display: flex;
+    gap: 20px;
+}
+.buttons button{
+    background-color: black;
+    color:white;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+     font-family: "Bangers", system-ui;
+     font-size: 18px;
+     letter-spacing: 2px;
+     text-align: center;
+     position: initial;
+     
+}
+.buttons button:hover{
+    color: var(--secondary-yellow);
+
+}
+.container{
+    display:auto;
+}
+.search{
+    display:flex;
+    font-size: large;
+    padding:0%;
+    position: absolute;
+    
+}

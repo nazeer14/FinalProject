@@ -1,0 +1,68 @@
+ 
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  margin: auto;
+  text-align: center;
+}  
+button {   
+       background-color:transparent;   
+       width: 100%;  
+        color: rgb(0, 0, 255);   
+        padding: 15px;   
+        margin: 10px 20px;   
+        border: black;   
+        cursor: pointer; 
+        text-align: center;  
+         }   
+ form {   
+        border: transparent;   
+    }   
+ input[type=text], input[type=password] {  
+
+        width: 50%;   
+        margin: 8px 0px;  
+        padding: 12px 20px;  
+        display: inline-block;   
+        border: black;   
+        box-sizing: border-box;   
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+  .cancelbtn {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+        color: rgb(19, 215, 62);
+        background-color: rgb(15, 19, 255);
+    }   
+        
+     
+ .container {   
+        padding: 25px;   
+        background-color: transparent;
+        color: rgb(4, 5, 5);  
+    }   
+ .h1{
+    text-align: center;
+    font-size: 100px;
+    font-weight: 900;
+    background-image: url(https://th.bing.com/th/id/OIP.wwxK07x0Umfnh0l-nrjxjgHaDg?rs=1&pid=ImgDetMain);
+    background-size: cover;
+    background-position: center; 
+    background-clip: text; 
+    -webkit-background-clip: text;
+    color: transparent;
+ }
+ .n1{
+    text-size-adjust: 10;
+    width: 10%;
+    padding: 10px;
+    background-color: rgb(33, 169, 51);
+ }
+ .s1{
+    background-color: rgb(234, 234, 182);
+    color: rgb(3, 3, 3);
+    width: 10px 5px;
+ }
+ 

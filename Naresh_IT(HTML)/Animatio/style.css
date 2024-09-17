@@ -1,0 +1,290 @@
+body{
+    display: flex;
+    background-color: rgb(212, 215, 144);
+}
+.box1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: rgb(238, 143, 20);
+    transition: all 2s ease;
+    animation-name: box1;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: absolute;
+
+}
+.box1:hover{
+    background-color: green;
+    transform: rotate(60deg);
+} 
+
+
+.box2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: aqua;
+    transition: all 2s ease;
+    animation-name: box2;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: absolute;
+
+}
+.box3{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: rgb(103, 101, 215);
+    transition: all 2s ease;
+    animation-name: box3;
+    animation-duration: 6s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: absolute;
+
+}
+.box4{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: rgb(200, 221, 98);
+    transition: all 2s ease;
+    animation-name: box4;
+    animation-duration: 7s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: absolute;
+
+}
+.box5{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: rgb(20, 86, 86);
+    transition: all 2s ease;
+    animation-name: box5;
+    animation-duration: 8s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: absolute;
+
+}
+.box6{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: rgb(229, 39, 25);
+    transition: all 2s ease;
+    animation-name: box6;
+    animation-duration: 9s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: absolute;
+
+}
+
+@keyframes box1 {
+    100%{
+        transform: translateY(10vh);
+    } 
+ }
+@keyframes box2 {
+   100%{
+       transform: translateY(10vh);
+   } 
+}
+@keyframes box3 {
+    100%{
+        transform: translateY(10vh);
+    } 
+ }
+ @keyframes box4 {
+    100%{
+        transform: translateY(10vh);
+    } 
+ }
+ @keyframes box5 {
+    100%{
+        transform: translateY(10vh);
+    } 
+ }
+ @keyframes box6 {
+    100%{
+        transform: translateY(10vh);
+    } 
+ }
+@keyframes box1{
+        0%{
+             top: 0px;
+             left: 0px;
+         }
+         20%{
+             top: 500px;
+             left: 100px;
+         }
+         40%{
+             top: 0px;
+             left: 200px;
+         }
+         60%{
+             top: 500px;
+             left: 300px;
+         }
+         80%{
+             top:0px;
+             left:400px;
+         }
+         100%{
+             top:500px;
+             left: 500px;;
+         }
+         
+      }
+@keyframes box2{
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    20%{
+        top: 500px;
+        left: 100px;
+    }
+    40%{
+        top: 0px;
+        left: 200px;
+    }
+    60%{
+        top: 500px;
+        left: 300px;
+    }
+    80%{
+        top:0px;
+        left:400px;
+    }
+    100%{
+        top:500px;
+        left: 500px;;
+    }
+    
+ }
+ @keyframes box3{
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    20%{
+        top: 500px;
+        left: 100px;
+    }
+    40%{
+        top: 0px;
+        left: 200px;
+    }
+    60%{
+        top: 500px;
+        left: 300px;
+    }
+    80%{
+        top:0px;
+        left:400px;
+    }
+    100%{
+        top:500px;
+        left: 500px;;
+    }
+      }
+ @keyframes box4{
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    20%{
+        top: 500px;
+        left: 100px;
+    }
+    40%{
+        top: 0px;
+        left: 200px;
+    }
+    60%{
+        top: 500px;
+        left: 300px;
+    }
+    80%{
+        top:0px;
+        left:400px;
+    }
+    100%{
+        top:500px;
+        left: 500px;;
+    }
+         
+      }
+    
+ @keyframes box5{
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    20%{
+        top: 500px;
+        left: 100px;
+    }
+    40%{
+        top: 0px;
+        left: 200px;
+    }
+    60%{
+        top: 500px;
+        left: 300px;
+    }
+    80%{
+        top:0px;
+        left:400px;
+    }
+    100%{
+        top:500px;
+        left: 500px;;
+    }
+    
+ }
+     
+ @keyframes box6{
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    20%{
+        top: 500px;
+        left: 100px;
+    }
+    40%{
+        top: 0px;
+        left: 200px;
+    }
+    60%{
+        top: 500px;
+        left: 300px;
+    }
+    80%{
+        top:0px;
+        left:400px;
+    }
+    100%{
+        top:500px;
+        left: 500px;;
+    }
+    
+ 
+
+}

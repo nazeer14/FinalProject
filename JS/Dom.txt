@@ -1,0 +1,24 @@
+Whole HTML,CSS is stored in one object called document
+
+
+--Selection--
+we can select an element of HTML using 5 ways
+
+1)document.getElementsByTagname('tagname') --it returns an array of values of same tagname.
+2)document.getElementsByClassname('classname')--it returns an array of values same classname.
+3)document.getElementsById('id name')--it returns an element with specific array
+4)document.querySelector('#btn')--it select first element with specific tagname or classname or id name
+5)document.querySelectorAll('.para')--it returns an all elements with specific tagname or classname or idname
+
+--Manipulation--
+you can change or manipulate the value dynamically using 
+--textContent--returns the text inside the element but it won't consider CSS
+--innerText--returns the text inside the element but it will consider CSS
+--innerHTML--returns the text inside the element but it will consider CSS
+
+
+npm install -g json-server
+json-server db.json --watch
+
+
+

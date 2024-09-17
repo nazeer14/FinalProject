@@ -1,0 +1,34 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#counter{
+   height: 80vh;
+   width: 45vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(180, 174, 140);
+   border-radius: 10px;
+   gap: 10px;
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-flex;
+    background-color: rgb(71, 3, 3);
+    color: white;
+}
+#para{
+    font-size: 48px;
+}

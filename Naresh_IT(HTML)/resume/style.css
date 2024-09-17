@@ -1,0 +1,33 @@
+#body{
+    text-align: justify;
+    width: 800px;
+    border: #d98585;
+    border: 3px;
+    background: #9eb8c6;
+
+}
+.career{
+    background: rgb(111, 157, 177);
+}
+.Education{
+    color: rgb(42, 42, 47);
+    background: rgb(111, 157, 177);
+}
+.skill{
+    background: rgb(111, 157, 177);
+}
+.table{
+    color: rgb(55, 55, 23);
+
+}
+/* 
+.h{
+    text-decoration: underline;
+} */
+.Pro{
+    background: rgb(111, 157, 177);
+    text-decoration: underline;
+}
+#name{
+    text-align: right;
+}

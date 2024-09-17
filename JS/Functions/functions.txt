@@ -1,0 +1,18 @@
+Function : a Function is a block of code for a specific purpose used for reusability.
+ We divide the whole logic into smaller parts ,so that we can repeat them and easy to debug.
+
+ //basic functions --simple functions
+   function function-name(parameters)
+   
+//callback function -one function inside parameter 
+
+function x(){
+  console.log("good")
+}
+function y(a,b){
+  b();
+  console.log(a);
+}
+y("boy",x);
+
+//

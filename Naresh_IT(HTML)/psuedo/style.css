@@ -1,0 +1,42 @@
+.box2{
+    font-size: 20px;
+    color: black;
+}
+.box::first-letter{
+    color:rgb(42, 233, 102);
+    font-size: 48px;
+}
+.box::first-line{
+    color: blue;
+}
+.box::before{
+content:open-quote;
+font-size: 48px;
+}
+input{
+    height: 20px;
+    width: 200px;
+}
+    input::placeholder{
+        font-size: 15px;
+    }
+    a:link{
+        color: red;
+    }
+    a:active{
+        color: green;
+    }
+    a:visited{
+        color: blue;
+    }
+    input:focus{
+        outline: 2px solid rgb(231, 225, 47);
+    }
+    .box{
+        height: 100px;
+        width: 100px;
+        background-color: rgb(30, 224, 59);
+    }
+    .box:hover{
+        background-color: rgb(46, 164, 191);
+    }

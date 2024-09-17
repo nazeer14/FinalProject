@@ -1,0 +1,128 @@
+<!DOCTYPE html>  
+<html>  
+<head> 
+  <title>Students Inf.</title> 
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<link rel="stylesheet" href="style3.css">
+<style>  
+body{ 
+      text-decoration-color: greenyellow;
+      background-color: aqua; 
+      background-image: "eagle.jpg";
+ 
+}  
+.container {  
+padding: 50px;  
+background-color: red;
+}
+input[type=text] {  
+  width: 100%;  
+  padding: 10px;  
+margin: 5px 0 15px 0;  
+display: inline-block;  
+ border: none;  
+ background: #f1f1f1;  
+} 
+input[type=radio] {  
+  width: 5%;  
+  padding: 5px;  
+margin: 1px 0 5px 0;    
+   
+}  
+input[type=text]:focus {  
+background-color: rgb(80, 176, 231);  
+outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+              
+        }  
+  
+hr {  
+  border: 1px solid #140f0fe8;  
+  margin-bottom: 25px;  
+}  
+button {  
+  background-color: #8097dc;  
+  color: rgb(192, 195, 199);  
+  padding: 16px 20px;  
+ border: none;  
+  cursor: pointer;  
+ margin: 8px 0;  
+  width: 15%;  
+  opacity: 0.9;  
+}  
+  
+button:hover {  
+opacity: 1;  
+}  
+  
+</style>  
+</head>  
+<body background="C:\Users\asus\Downloads\wp2700118-computer-science-engineering-wallpapers.jpg"> 
+<form>  
+<class="container">  
+<center>  <h1 style="color: red"> Sana College Students</h1><h3><u>CSE DEPARTMENT</u></h3> </center>      
+<hr>  
+<label> Firstname<input type="text" name="firstname" placeholder= "Firstname" size="15" required />   </label>   
+<label> Lastname:   <input type="text" name="Lastname" placeholder="Lastname" size="15" required /></label>
+<label>Hall ticket no:<input type="text" placeholder="Hall ticket number" size="10" >
+</label> 
+<br> 
+<label> PINCODE:    
+<input type="number" name="PINCODE" placeholder="PINCODE" size="6">   
+</label>  
+<div> 
+  <form action="nazeer" method="post">
+<br>
+
+</br>
+<label><b>Year:</b>
+    <input type="radio" value="1" name="Year" checked>1
+    <input type="radio" value="2" name="Year">2
+    <input type="radio" value="3" name="Year">3
+    <input type="radio" value="4" name="Year">4
+</label>
+<Br>
+
+</Br>
+<label>
+BRANCH  <br>
+<input type="text" id="BRANCH" list="BRANCHES">
+<datalist id="BRANCHES">
+<option value="CSE">
+<option value="Cyber Security">
+<option value="Data Science">
+<option value="AML">
+<option value="IOT">
+<option value="ML"> 
+</datalist>
+</label>   
+<br>
+<br>
+<label>
+<b>  
+    Email :  
+    </b>  
+    <input type="text" placeholder="Enter Email" n ame="email" required>  
+    </label>  
+Phone :    
+    <input type="text" name="phone" placeholder="phone no." size="10" required/>   
+    </label> 
+<label>        
+Gender :  
+<br>  
+<input type="radio" value="Male" name="gender" checked > Male   
+<input type="radio" value="Female" name="gender"> Female   
+<input type="radio" value="Other" name="gender"> Other  
+</label>    
+<label> 
+</div>   
+<b><center><button type="submit" value="submit" >Submit</button>
+<button type="reset" value="submit">Reset</button> </b>  </center>  
+</form>    
+</y>  
+</body>
+</html> 
+
+
