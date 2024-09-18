@@ -1,8 +1,11 @@
 *{
     box-sizing: border-box;
 }
+body{
+    background-color: rgb(104, 137, 202);
+}
 .extra{
-    color: aqua;
+    color: rgb(32, 231, 231);
 }
 #products{
     display: grid;
@@ -13,6 +16,7 @@ header{
     position: sticky;
     top: 0px;
     z-index: 100;
+    background: #e69797;
 }
 
 .item{
